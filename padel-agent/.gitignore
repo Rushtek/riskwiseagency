@@ -1,0 +1,5 @@
+.env
+club.json
+*.db
+__pycache__/
+.venv/

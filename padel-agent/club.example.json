@@ -1,0 +1,22 @@
+{
+  "name": "Club de Pádel Ejemplo",
+  "timezone": "Europe/Madrid",
+  "slot_minutes": 30,
+  "default_duration_minutes": 90,
+  "playtomic_tenant_id": "PON-AQUI-EL-TENANT-ID-DE-PLAYTOMIC",
+  "opening_hours": {
+    "mon": ["08:00", "23:00"],
+    "tue": ["08:00", "23:00"],
+    "wed": ["08:00", "23:00"],
+    "thu": ["08:00", "23:00"],
+    "fri": ["08:00", "23:00"],
+    "sat": ["09:00", "22:00"],
+    "sun": ["09:00", "21:00"]
+  },
+  "courts": [
+    {"id": "1", "name": "Pista 1 (cristal)", "playtomic_resource_id": "RESOURCE-ID-PISTA-1"},
+    {"id": "2", "name": "Pista 2 (cristal)", "playtomic_resource_id": "RESOURCE-ID-PISTA-2"},
+    {"id": "3", "name": "Pista 3 (muro)", "playtomic_resource_id": null}
+  ],
+  "info": "Precios: 90 min = 36 € la pista (hora punta 18-22h: 44 €). Alquiler de pala 3 €. Bote de bolas 6 €. Cancelación gratuita hasta 24 h antes. Teléfono del club: 600 000 000. Hay vestuarios con duchas y parking gratuito."
+}
